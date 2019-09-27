@@ -1,7 +1,7 @@
 // function determines shader type by parsing
 // the filename extension (use .frag or .vert)
 function loadShader(url) {
-  return fetch(window.location.pathname + url)
+  return fetch(url)
   .then(response => {
     if(response.status != 200) {
       console.error("could not load shader " + url);
