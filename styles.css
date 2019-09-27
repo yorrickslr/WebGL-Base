@@ -1,0 +1,16 @@
+html, body {
+  /* maximize body size */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* hide scroll bars */
+  overflow: hidden;
+}
+
+canvas {
+  /* maximize canvas size */
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
